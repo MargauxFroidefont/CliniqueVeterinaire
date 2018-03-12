@@ -1,10 +1,16 @@
-# Created by https://www.gitignore.io/api/stylus,wordpress
+# Created by https://www.gitignore.io/api/node,stylus,wordpress
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
 
 ### Stylus ###
 *.css
 
 ### WordPress ###
-*.log
 wp-config.php
 wp-content/advanced-cache.php
 wp-content/backup-db/
@@ -24,4 +30,4 @@ wp-content/plugins/hello.php
 
 
 
-# End of https://www.gitignore.io/api/stylus,wordpress
+# End of https://www.gitignore.io/api/node,stylus,wordpress
